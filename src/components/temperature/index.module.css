@@ -1,0 +1,62 @@
+.counter {
+    background-color: rgb(11, 84, 211);
+    color: #fff;
+    text-align: center;
+    padding: 50px;
+    border-radius: 20px;
+    margin: auto;
+}
+.counter h1 {
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.temp {
+    font-size: 24px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    padding: 50px;
+    width: 50px;
+    height: 50px;
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.temp h2 {
+    margin-bottom: 0;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.buttons div {
+    border: 1px solid #fff;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buttons div button {
+    border: 0;
+    outline: none;
+    background-color: transparent;
+    color: #fff;
+    font-size: 40px;
+}
+
+.transparent {
+    background-color: rgb(11, 84, 211);
+}
+.cold {
+    background-color: rgb(67, 112, 191);
+}
+.hot {
+    background-color: rgb(255, 64, 0);
+}

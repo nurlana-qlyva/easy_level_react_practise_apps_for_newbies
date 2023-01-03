@@ -1,0 +1,58 @@
+{
+    "questions": [
+        {
+            "question_text": "What does HTML stand for?",
+            "answers": [
+                {"answer_text": "Hyperlinks and Text Markup Language", "isCorrect": "false"},
+                {"answer_text": "Home Tool Markup Language", "isCorrect": "false"},
+                {"answer_text": "Hyper Tool Markup Language", "isCorrect": "false"},
+                {"answer_text": "Hyper Text Markup Language", "isCorrect": "true"}
+            ]
+        },
+        {
+            "question_text": "Who is making the Web standards?",
+            "answers": [
+                {"answer_text": "The World Wide Web Consortium", "isCorrect": "true"},
+                {"answer_text": "Mozilla", "isCorrect": "false"},
+                {"answer_text": "Google", "isCorrect": "false"},
+                {"answer_text": "Microsoft", "isCorrect": "false"}
+            ]
+        },
+        {
+            "question_text": "What is the correct HTML element for inserting a line break?",
+            "answers": [
+                {"answer_text": "<break>", "isCorrect": "false"},
+                {"answer_text": "<br>", "isCorrect": "true"},
+                {"answer_text": "<bl>", "isCorrect": "false"},
+                {"answer_text": "<hr>", "isCorrect": "false"}
+            ]
+        },
+        {
+            "question_text": "What is the correct HTML for creating a hyperlink?",
+            "answers": [
+                {"answer_text": "<a>click</a>", "isCorrect": "false"},
+                {"answer_text": "<a name='url'>click</a>", "isCorrect": "false"},
+                {"answer_text": "<a href='url'>click</a>", "isCorrect": "true"},
+                {"answer_text": "<a url='url'>click</a>", "isCorrect": "false"}
+            ]
+        },
+        {
+            "question_text": "What is the correct HTML for making a checkbox?",
+            "answers": [
+                {"answer_text": "<input type='checkbox'>", "isCorrect": "true"},
+                {"answer_text": "<check>", "isCorrect": "false"},
+                {"answer_text": "<checkbox>", "isCorrect": "false"},
+                {"answer_text": "<input type='check'>", "isCorrect": "false"}
+            ]
+        },
+        {
+            "question_text": "What does CSS stand for?",
+            "answers": [
+                {"answer_text": "Computer Style Sheets", "isCorrect": "false"},
+                {"answer_text": "colorful Style Sheets", "isCorrect": "false"},
+                {"answer_text": "Cascading Style Sheets", "isCorrect": "true"},
+                {"answer_text": "Creative Style Sheets", "isCorrect": "false"}
+            ]
+        }
+    ]
+}

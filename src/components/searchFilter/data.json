@@ -1,0 +1,34 @@
+{
+    "users": [
+        {
+            "name": "Nurlana",
+            "surname": "Quluyeva",
+            "age": 26
+        },
+        {
+            "name": "Guler",
+            "surname": "Novruzlu",
+            "age": 19
+        },
+        {
+            "name": "Ferid",
+            "surname": "Novruzlu",
+            "age": 28
+        },
+        {
+            "name": "Urfan",
+            "surname": "Ibrahimli",
+            "age": 28
+        },
+        {
+            "name": "Ramin",
+            "surname": "Memmedzade",
+            "age": 20
+        },
+        {
+            "name": "Muzeffer",
+            "surname": "Quliyev",
+            "age": 25
+        }
+    ]
+}

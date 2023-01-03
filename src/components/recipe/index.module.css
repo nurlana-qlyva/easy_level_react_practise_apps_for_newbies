@@ -1,0 +1,48 @@
+.recipe h1 {
+    color: #1b6c1b;
+    font-size: 60px;
+    margin-bottom: 50px;
+}
+.recipe h2 {
+    color: #1b6c1b;
+    font-size: 40px;
+    margin: 20px 0;
+}
+.recipe input {
+    border: 2px solid #1b6c1b;
+    border-right: 0;
+    padding: 6px 20px;
+    outline: none;
+    color: #1b6c1b;
+    font-weight: 600;
+}
+.recipe button {
+    background-color: transparent;
+    border: 2px solid #1b6c1b;
+    color: #1b6c1b;
+    border-left: 0;
+    padding: 6px 20px;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.list {
+    width: calc(50% - 20px);
+    padding: 20px;
+    box-sizing: border-box;
+    border: 1px solid #a52a2a;
+}
+.list ol {
+    padding-left: 18px;
+}
+.list h3 {
+    color: #a52a2a;
+    font-size: 30px;
+    margin-top: 20px;
+}
+.list img {
+    width: 100%;
+    height: 200px;
+}

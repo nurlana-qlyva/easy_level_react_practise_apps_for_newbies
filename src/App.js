@@ -1,24 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import { createBrowserRouter, Route, RouterProvider, createRoutesFromElements } from "react-router-dom";
+import "./index.css";
+import {routesArr} from './routes';
+import SideBar from "./layouts/sidebar";
+import ErrorPage from "./layouts/error";
 
 function App() {
+
+  const router = createBrowserRouter(createRoutesFromElements(
+    <>
+      <Route 
+        path={'/'}
+        element={<SideBar/>}
+        errorElement={<ErrorPage />}
+        children={routesArr.map(item => {
+          return <Route
+            key={item.path} 
+            path={item.path}
+            element={item.component}
+          />
+        })}
+      />
+    </>
+  ))
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div className="container-fluid row">
+        <div className="col-12">
+            <RouterProvider router={router} />
+        </div>
+      </div>
+    </>
   );
 }
 

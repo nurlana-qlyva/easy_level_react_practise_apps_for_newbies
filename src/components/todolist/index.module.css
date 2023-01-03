@@ -1,0 +1,64 @@
+.completed {
+    text-decoration: line-through;
+}
+.header h1 {
+    color: #1b6c1b;
+    text-align: center;
+    font-size: 60px;
+}
+.form {
+    margin: 70px auto 10px;
+}
+.flex {
+    display: flex;
+}
+.input {
+    width: 60%;
+}
+.input input {
+    border: 2px solid #1b6c1b;
+    border-right: 0;
+    width: 80%;
+    outline: none;
+    padding: 8px 20px;
+}
+.form button {
+    border: 2px solid #1b6c1b;
+    border-left: 0;
+    background-color: transparent;
+    color: #1b6c1b;
+    padding: 8px 20px;
+}
+.select select{
+    background-color: #1b6c1b;
+    color: #fff;
+    border: 2px solid #1b6c1b;
+    outline: none;
+    padding: 8px 20px;
+    width: 100%;
+}
+.select {
+    margin-bottom: 30px;
+    width: 40%;
+}
+.select select option:hover {
+    background-color: transparent !important;
+    color: #1b6c1b;
+}
+.todo_list {
+    list-style: none;
+    padding-left: 0;
+}
+.text, .completed {
+    display: inline-block;
+    padding: 0 20px;
+    color: #1b6c1b;
+    border: 2px solid #1b6c1b;
+    margin: 4px 0;
+}
+.todo_list li button {
+    background-color: #1b6c1b;
+    border: 1px solid #1b6c1b;
+    color: #fff;
+}
+

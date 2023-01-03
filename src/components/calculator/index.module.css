@@ -1,0 +1,35 @@
+.container {
+    max-width: 80%;
+    margin: auto;
+    text-align: center;
+}
+.container h1 {
+    color: orangered;
+    font-size: 60px;
+}
+.row{
+    display: flex;
+}
+.button {
+    display: inline-block;
+    width: 25%;
+    padding: 20px 30px;
+    box-sizing: border-box;
+    background-color: #c4c4c4;
+    border: 1px solid black;
+}
+.operator {
+    background-color: orangered;
+    color: #fff;
+}
+.input {
+    margin: 70px 0 0;
+}
+.input input {
+    width: 100%;
+    background: black;
+    outline: none;
+    border: 0;
+    padding: 18px 20px;
+    color: #fff;
+}

@@ -1,0 +1,26 @@
+.search h1{
+    text-align: center;
+}
+.input input, 
+.table table {
+    width: 100%;
+}
+.input {
+    margin: 40px 0;
+}
+.table td,
+.table th {
+    padding: 10px;
+} 
+.table th,
+.table td,
+.input input {
+    border: 1px solid rgb(5, 67, 5);
+}
+.input input {
+    border-radius: 6px;
+    height: 40px;
+}
+.table tr:nth-child(even) {
+    background-color: #c4c4c4;
+}
