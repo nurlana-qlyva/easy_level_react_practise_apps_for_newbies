@@ -71,7 +71,7 @@ export default function RegisterForm() {
                         {submitted && !values.email ? <span className='text-danger'>Please, enter your email adress.</span> : null}
                     </Input>
                     <div className='text-center'>
-                        <button type="submit" className="btn btn-primary d-inline-block my-4">Submit</button>
+                        <button type="submit" className="btn btn-success d-inline-block my-2 my-md-4">Submit</button>
                     </div>
                 </form>
             </div>

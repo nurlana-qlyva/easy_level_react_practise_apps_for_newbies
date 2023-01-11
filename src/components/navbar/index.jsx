@@ -21,7 +21,7 @@ export default function Navbar() {
                         {clicked ?  <i className="fa-solid fa-xmark"></i> : <i className="fa-solid fa-bars"></i>}
                     </div>
                     <div className={show}>
-                        <ul className={clicked ? `${style.list} ${style.active}` : style.list}>
+                        <ul className={clicked ? `${style.list}` : style.list}>
                             {menuItems.map(item => {
                                 return <li key={item.name}>
                                     <a href={item.url}>{item.name}</a>

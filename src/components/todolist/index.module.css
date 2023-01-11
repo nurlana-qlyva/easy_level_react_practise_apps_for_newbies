@@ -62,3 +62,15 @@
     color: #fff;
 }
 
+@media  screen and (max-width:768px) {
+    .flex {
+        flex-direction: column;
+    }
+    .input,
+    .select {
+        width: 100%;
+    }
+    .form button {
+        width: 20%;
+    }
+}

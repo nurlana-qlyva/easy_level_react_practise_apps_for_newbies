@@ -43,8 +43,8 @@ export default function Weather() {
                 <div className={`${style.weather} ${style.flex}`}>
 
                     <div className={style.image}>
-                        {data.map(image => {
-                           return image.name === weather.current.condition.text.toLowerCase() ? <img src={image.img} alt="" /> : ''
+                        {data.map((image, index) => {
+                           return image.name === weather.current.condition.text.toLowerCase() ? <img src={image.img} alt="" key={index}/> : ''
                         })}
                     </div>
                     <div className={style.text}>

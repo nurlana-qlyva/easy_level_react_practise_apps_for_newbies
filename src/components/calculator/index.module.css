@@ -33,3 +33,9 @@
     padding: 18px 20px;
     color: #fff;
 }
+
+@media screen and (max-width:768px) {
+    .input {
+        margin: 40px 0 0;
+    }
+}

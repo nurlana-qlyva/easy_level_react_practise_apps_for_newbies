@@ -25,7 +25,7 @@ export default function Quiz() {
         <div className={style.bg}>
             <div className="row justify-content-center">
                 <div className="col-8">
-                    <h1 className='text-center mb-5'>React Quiz App</h1>
+                    <h1 className='mb-5'>React Quiz App</h1>
                     {showScore ? 
                     <div>You scored {score} of {questions.length}</div> : 
                     (
